@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0066FF;
+  --color-primary-dark: #0052CC;
+  --color-primary-light: #3385FF;
+  
+  --color-secondary: #FF6B00;
+  --color-secondary-dark: #E66000;
+  --color-secondary-light: #FF8933;
+  
+  --color-dark: #0F172A;
+  --color-dark-lighter: #1E293B;
+}
+
+:root {
+  --foreground-rgb: 15, 23, 42;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 248, 250, 252;
+}
+
+.dark {
+  --foreground-rgb: 248, 250, 252;
+  --background-start-rgb: 15, 23, 42;
+  --background-end-rgb: 2, 6, 23;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  scroll-behavior: smooth;
+  @apply transition-colors duration-300;
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4;
+  }
+  @media (min-width: 640px) {
+    .container-custom {
+      @apply px-6;
+    }
+  }
+  @media (min-width: 1024px) {
+    .container-custom {
+      @apply px-8;
+    }
+  }
+  
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-dark text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary hover:bg-secondary-dark text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-primary text-primary hover:bg-primary hover:text-white font-semibold py-3 px-8 rounded-full transition-all duration-300;
+  }
+
+  .glass-card {
+    @apply bg-white/10 dark:bg-dark/40 backdrop-blur-md border border-white/20 dark:border-white/10 rounded-2xl;
+  }
+}
+
+/* Custom animations */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Fix for smooth scroll with Next.js */
+html {
+  scroll-behavior: smooth;
+}
+
+[data-scroll-behavior="smooth"] {
+  scroll-behavior: smooth;
+}
