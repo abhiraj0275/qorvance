@@ -1,6 +1,6 @@
-# Digital AI Technologies - Enterprise AI & Software Solutions
+# Qorvance - Enterprise AI & Software Solutions
 
-Digital AI Technologies is a premium technology agency website built with Next.js, TypeScript, and Tailwind CSS. We specialize in delivering cutting-edge AI development, custom software solutions, and comprehensive digital transformation strategies for global enterprises.
+Qorvance is a premium technology agency website built with Next.js, TypeScript, and Tailwind CSS. We specialize in delivering cutting-edge AI development, custom software solutions, and comprehensive digital transformation strategies for global enterprises.
 
 ## Tech Stack
 
@@ -32,4 +32,4 @@ Digital AI Technologies is a premium technology agency website built with Next.j
 - **Contact Person**: Abhinandan Raj
 - **Mobile**: 9999999999
 - **Address**: Greater Noida, Uttar Pradesh, India
-- **Email**: contact@digitalaitech.com
+- **Email**: qorvance@gmail.com

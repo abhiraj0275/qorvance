@@ -36,7 +36,7 @@ export default function CaseStudiesPage() {
     <>
       <PageHeader 
         title="Success Stories" 
-        subtitle="Exploring how Digital AI Technologies delivers measurable business value through advanced engineering."
+        subtitle="Exploring how Qorvance delivers measurable business value through advanced engineering."
         backgroundImage="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1600"
       />
 

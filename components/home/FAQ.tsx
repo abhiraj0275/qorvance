@@ -9,7 +9,7 @@ import { cn } from '@/lib/utils';
 
 const faqs = [
   {
-    question: "What core industries does Digital AI Technologies serve?",
+    question: "What core industries does Qorvance serve?",
     answer: "We specialize in delivering high-impact solutions for Fintech, Healthcare, Supply Chain, and Enterprise SaaS. Our cross-industry expertise allows us to apply advanced AI methodologies to solve diverse business challenges."
   },
   {
@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     question: "How do you ensure data security and compliance?",
-    answer: "Security is foundational at Digital AI Technologies. We adhere to global standards like GDPR and SOC2, implementing end-to-end encryption and regular vulnerability assessments to protect all client data."
+    answer: "Security is foundational at Qorvance. We adhere to global standards like GDPR and SOC2, implementing end-to-end encryption and regular vulnerability assessments to protect all client data."
   }
 ];
 
@@ -76,7 +76,7 @@ const FAQ = () => {
             <SectionHeading 
               subtitle="Common Questions"
               title="Everything You Need to Know"
-              description="Discover how Digital AI Technologies can accelerate your digital journey and solve your most complex technical challenges."
+              description="Discover how Qorvance can accelerate your digital journey and solve your most complex technical challenges."
               className="mb-8"
             />
             <div className="p-8 bg-slate-50 rounded-3xl border border-gray-100">

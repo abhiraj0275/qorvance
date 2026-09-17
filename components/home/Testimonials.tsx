@@ -9,7 +9,7 @@ const testimonials = [
   {
     name: 'Rajesh Khanna',
     role: 'CEO at FutureScale',
-    content: 'Digital AI Technologies overhauled our legacy infrastructure with a seamless AI integration that improved our processing speed by 40%. Their technical expertise is world-class.',
+    content: 'Qorvance overhauled our legacy infrastructure with a seamless AI integration that improved our processing speed by 40%. Their technical expertise is world-class.',
     avatar: 'https://i.pravatar.cc/150?u=rajesh',
     rating: 5
   },
@@ -23,7 +23,7 @@ const testimonials = [
   {
     name: 'Amit Patel',
     role: 'Product Head at Nexus Solutions',
-    content: 'The user engagement on our new platform has skyrocketed thanks to the intuitive UI/UX design provided by Digital AI Technologies. Highly recommended for any serious digital project.',
+    content: 'The user engagement on our new platform has skyrocketed thanks to the intuitive UI/UX design provided by Qorvance. Highly recommended for any serious digital project.',
     avatar: 'https://i.pravatar.cc/150?u=amit',
     rating: 5
   }

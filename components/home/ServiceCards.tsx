@@ -66,7 +66,7 @@ const ServiceCards = () => {
       <div className="container-custom">
         <SectionHeading 
           subtitle="Our Expertise"
-          title="Digital AI Technologies: Driving the Future of Tech"
+          title="Qorvance: Driving the Future of Tech"
           description="We combine advanced technical proficiency with strategic business analysis to deliver digital products that redefine industry standards."
           centered
         />

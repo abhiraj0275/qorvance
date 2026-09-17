@@ -62,7 +62,7 @@ export default function ServicesPage() {
     <>
       <PageHeader 
         title="Our Capabilities" 
-        subtitle="Digital AI Technologies provides enterprise-grade technology solutions designed to accelerate growth and innovation."
+        subtitle="Qorvance provides enterprise-grade technology solutions designed to accelerate growth and innovation."
         backgroundImage="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1600"
       />
 

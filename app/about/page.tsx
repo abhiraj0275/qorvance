@@ -38,7 +38,7 @@ export default function AboutPage() {
     <>
       <PageHeader 
         title="Our Journey" 
-        subtitle="Digital AI Technologies is a collective of visionary engineers and designers committed to defining the digital future."
+        subtitle="Qorvance is a collective of visionary engineers and designers committed to defining the digital future."
         backgroundImage="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=1600"
       />
 
@@ -55,7 +55,7 @@ export default function AboutPage() {
               <SectionHeading 
                 subtitle="Who We Are"
                 title="Pioneering Digital Excellence"
-                description="Digital AI Technologies was established with a singular mission: to bridge the gap between advanced artificial intelligence and practical business applications."
+                description="Qorvance was established with a singular mission: to bridge the gap between advanced artificial intelligence and practical business applications."
               />
               <p className="text-gray-600 mb-8 leading-relaxed">
                 Headquartered in Greater Noida, we have expanded our reach to serve a global clientele. Our team of experts specializes in transforming complex data into actionable intelligence, enabling businesses to scale efficiently in an AI-driven world.
@@ -85,7 +85,7 @@ export default function AboutPage() {
               <div className="rounded-3xl overflow-hidden shadow-2xl relative z-10">
                 <img 
                   src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800" 
-                  alt="Digital AI Technologies Leadership" 
+                  alt="Qorvance Leadership" 
                 />
               </div>
               <div className="absolute -bottom-10 -left-10 w-64 h-64 bg-primary/10 rounded-full blur-3xl -z-10" />

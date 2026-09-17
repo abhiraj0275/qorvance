@@ -39,7 +39,7 @@ export default function ContactPage() {
     <>
       <PageHeader 
         title="Connect With Us" 
-        subtitle="Have a vision? Let's discuss how Digital AI Technologies can bring it to life with precision engineering."
+        subtitle="Have a vision? Let's discuss how Qorvance can bring it to life with precision engineering."
         backgroundImage="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?auto=format&fit=crop&q=80&w=1600"
       />
 
@@ -80,8 +80,7 @@ export default function ContactPage() {
                   <div>
                     <h4 className="text-xl font-bold mb-2 dark:text-white transition-colors">Email Us</h4>
                     <p className="text-gray-600 dark:text-gray-400 leading-relaxed transition-colors">
-                      contact@digitalaitech.com<br />
-                      abhir@digitalaitech.com
+                      qorvance@gmail.com
                     </p>
                   </div>
                 </div>
@@ -199,7 +198,7 @@ export default function ContactPage() {
       <section className="h-[500px] bg-slate-200 dark:bg-slate-800 relative overflow-hidden transition-colors">
         <div className="absolute inset-0 flex items-center justify-center text-gray-400 font-bold text-2xl uppercase tracking-widest bg-[url('https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&q=80&w=1600')] bg-cover bg-center">
           <div className="bg-white/90 dark:bg-dark/90 backdrop-blur px-10 py-5 rounded-full shadow-2xl text-primary flex items-center transition-colors">
-            <MapPin className="mr-3" /> Digital AI Technologies Hub
+            <MapPin className="mr-3" /> Qorvance Hub
           </div>
         </div>
       </section>

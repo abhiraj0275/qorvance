@@ -20,7 +20,7 @@ const CTA = () => {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight max-w-4xl mx-auto">
-            Scale Your Business with <span className="text-secondary">Digital AI Technologies</span>
+            Scale Your Business with <span className="text-secondary">Qorvance</span>
           </h2>
           
           <p className="text-xl text-blue-100 mb-12 max-w-2xl mx-auto leading-relaxed">

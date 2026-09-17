@@ -62,7 +62,7 @@ export default function BlogPage() {
     <>
       <PageHeader 
         title="Knowledge Center" 
-        subtitle="Insights, trends, and strategic perspectives from the experts at Digital AI Technologies."
+        subtitle="Insights, trends, and strategic perspectives from the experts at Qorvance."
         backgroundImage="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&q=80&w=1600"
       />
 
@@ -155,7 +155,7 @@ export default function BlogPage() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto bg-white rounded-[40px] p-12 md:p-16 shadow-xl text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Stay Informed</h2>
-            <p className="text-gray-600 mb-10 max-w-xl mx-auto">Subscribe to the Digital AI Technologies newsletter for the latest technical insights and industry trends.</p>
+            <p className="text-gray-600 mb-10 max-w-xl mx-auto">Subscribe to the Qorvance newsletter for the latest technical insights and industry trends.</p>
             <form className="flex flex-col sm:flex-row gap-4 max-w-2xl mx-auto">
               <input 
                 type="email" 

@@ -32,7 +32,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl text-gray-600 mb-10 leading-relaxed max-w-xl">
-              Digital AI Technologies engineers bespoke enterprise experiences using advanced machine learning, custom software, and scalable cloud architectures to future-proof your business.
+              Qorvance engineers bespoke enterprise experiences using advanced machine learning, custom software, and scalable cloud architectures to future-proof your business.
             </p>
 
             <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-6">
@@ -68,7 +68,7 @@ const Hero = () => {
             <div className="relative z-20 rounded-3xl overflow-hidden shadow-2xl">
               <img 
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800" 
-                alt="Digital AI Technologies Team" 
+                alt="Qorvance Team" 
                 className="w-full h-auto"
               />
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent" />

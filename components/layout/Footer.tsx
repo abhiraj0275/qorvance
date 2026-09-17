@@ -12,11 +12,9 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <Link href="/" className="flex items-center mb-6">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center mr-2">
-                <span className="text-white font-bold text-xl">D</span>
-              </div>
+              <img src="/images/qorvance-logo.jpg" alt="Qorvance logo" className="w-11 h-11 rounded-lg object-cover object-center mr-2 shadow-md" />
               <span className="text-2xl font-bold tracking-tight">
-                Digital AI<span className="text-primary"> Technologies</span>
+                Qorvance
               </span>
             </Link>
             <p className="text-gray-400 mb-8 leading-relaxed">
@@ -78,7 +76,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="text-primary mr-3 shrink-0" size={18} />
-                <span>contact@digitalaitech.com</span>
+                <a href="mailto:qorvance@gmail.com" className="hover:text-primary transition-colors">qorvance@gmail.com</a>
               </li>
             </ul>
             <div className="mt-8 pt-8 border-t border-white/5">
@@ -90,7 +88,7 @@ const Footer = () => {
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
           <div className="mb-4 md:mb-0">
-            <p>© {currentYear} Digital AI Technologies. All rights reserved.</p>
+            <p>© {currentYear} Qorvance. All rights reserved.</p>
             <p className="mt-1 text-xs opacity-60 italic">Owned and Managed by Abhinandan Raj</p>
           </div>
           <div className="flex space-x-6">

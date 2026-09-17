@@ -57,7 +57,7 @@ export default function CareersPage() {
     <>
       <PageHeader 
         title="Career Opportunities" 
-        subtitle="Help us engineer the next generation of AI-driven solutions. We're looking for passionate innovators to join Digital AI Technologies."
+        subtitle="Help us engineer the next generation of AI-driven solutions. We're looking for passionate innovators to join Qorvance."
         backgroundImage="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&q=80&w=1600"
       />
 
@@ -72,12 +72,12 @@ export default function CareersPage() {
               transition={{ duration: 0.8 }}
             >
               <SectionHeading 
-                subtitle="Life at Digital AI"
+                subtitle="Life at Qorvance"
                 title="Fuel Your Curiosity, Drive Real Impact"
                 description="We believe that the most transformative work happens when talented individuals are given the autonomy to innovate and the support to excel."
               />
               <p className="text-gray-600 mb-10 leading-relaxed">
-                At Digital AI Technologies, you will solve complex technical challenges for global industry leaders. You will be part of a diverse, forward-thinking team that values integrity, technical excellence, and professional growth. We are not just building software; we are building the future of intelligence.
+                At Qorvance, you will solve complex technical challenges for global industry leaders. You will be part of a diverse, forward-thinking team that values integrity, technical excellence, and professional growth. We are not just building software; we are building the future of intelligence.
               </p>
               
               <div className="grid grid-cols-2 gap-6">
@@ -105,7 +105,7 @@ export default function CareersPage() {
               <div className="rounded-3xl overflow-hidden shadow-2xl">
                 <img 
                   src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800" 
-                  alt="Digital AI Technologies Culture" 
+                  alt="Qorvance Culture" 
                 />
               </div>
             </motion.div>

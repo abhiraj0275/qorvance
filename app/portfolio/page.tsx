@@ -80,7 +80,7 @@ export default function PortfolioPage() {
     <>
       <PageHeader 
         title="Our Portfolio" 
-        subtitle="Digital AI Technologies delivers high-impact digital products for industry leaders across the globe."
+        subtitle="Qorvance delivers high-impact digital products for industry leaders across the globe."
         backgroundImage="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=1600"
       />
 
@@ -167,7 +167,7 @@ export default function PortfolioPage() {
             <div className="absolute top-0 right-0 w-1/2 h-full opacity-30">
               <img 
                 src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800" 
-                alt="Digital AI Technologies Case Study" 
+                alt="Qorvance Case Study" 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -175,7 +175,7 @@ export default function PortfolioPage() {
               <span className="text-secondary font-bold uppercase tracking-widest mb-4 block">Featured Case Study</span>
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">Redefining Global Logistics with AI Precision</h2>
               <p className="text-gray-400 text-lg mb-10">
-                A deep dive into how Digital AI Technologies optimized supply chain operations for a Fortune 500 company using predictive modeling and autonomous systems.
+                A deep dive into how Qorvance optimized supply chain operations for a Fortune 500 company using predictive modeling and autonomous systems.
               </p>
               <Link href="/case-studies" className="btn-secondary inline-block">
                 Read Case Study

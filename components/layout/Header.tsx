@@ -57,8 +57,8 @@ const Header = () => {
               <a href="tel:9999999999" className="flex items-center hover:text-primary transition-colors">
                 <Phone size={14} className="mr-2" /> +91 99999 99999
               </a>
-              <a href="mailto:contact@digitalaitech.com" className="flex items-center hover:text-primary transition-colors">
-                <Mail size={14} className="mr-2" /> contact@digitalaitech.com
+              <a href="mailto:qorvance@gmail.com" className="flex items-center hover:text-primary transition-colors">
+                <Mail size={14} className="mr-2" /> qorvance@gmail.com
               </a>
             </div>
             <div className="flex space-x-4">
@@ -72,14 +72,12 @@ const Header = () => {
       <nav className="container-custom flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex items-center group">
-          <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center mr-2 group-hover:rotate-12 transition-transform">
-            <span className="text-white font-bold text-xl">D</span>
-          </div>
+          <img src="/images/qorvance-logo.jpg" alt="Qorvance logo" className="w-11 h-11 rounded-lg object-cover object-center mr-2 shadow-md group-hover:rotate-3 transition-transform" />
           <span className={cn(
             "text-xl md:text-2xl font-bold tracking-tight transition-colors",
             scrolled ? "text-dark dark:text-white" : "text-dark dark:text-white"
           )}>
-            Digital AI<span className="text-primary"> Technologies</span>
+            Qorvance
           </span>
         </Link>
 
