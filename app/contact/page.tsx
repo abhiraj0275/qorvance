@@ -14,6 +14,7 @@ export default function ContactPage() {
     subject: '',
     message: ''
   });
+  const [submissionStatus, setSubmissionStatus] = useState('');
 
   useEffect(() => {
     const timer = setTimeout(() => setIsMounted(true), 0);
@@ -22,10 +23,20 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission logic here
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message, ' + formData.name + '. We will get back to you soon!');
-    setFormData({ name: '', email: '', subject: '', message: '' });
+    const emailSubject = `Website enquiry: ${formData.subject}`;
+    const emailBody = [
+      'New enquiry from the Qorvance website',
+      '',
+      `Name: ${formData.name}`,
+      `Email: ${formData.email}`,
+      `Inquiry type: ${formData.subject}`,
+      '',
+      'Requirements:',
+      formData.message,
+    ].join('\n');
+
+    window.location.href = `mailto:qorvance@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+    setSubmissionStatus('Your email app has opened with your enquiry ready to send.');
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -79,9 +90,9 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="text-xl font-bold mb-2 dark:text-white transition-colors">Email Us</h4>
-                    <p className="text-gray-600 dark:text-gray-400 leading-relaxed transition-colors">
+                    <a href="mailto:qorvance@gmail.com" className="text-gray-600 dark:text-gray-400 leading-relaxed transition-colors hover:text-primary">
                       qorvance@gmail.com
-                    </p>
+                    </a>
                   </div>
                 </div>
 
@@ -188,6 +199,11 @@ export default function ContactPage() {
                   <span>Submit Inquiry</span>
                   <Send size={20} />
                 </button>
+                {submissionStatus && (
+                  <p className="text-center text-sm font-medium text-primary" role="status">
+                    {submissionStatus}
+                  </p>
+                )}
               </form>
             </motion.div>
           </div>
