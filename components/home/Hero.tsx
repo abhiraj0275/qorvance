@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-50">
+    <section className="future-surface relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-50 dark:bg-black">
       {/* Background Decorative Elements */}
       <div className="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl pointer-events-none" />
@@ -65,7 +65,7 @@ const Hero = () => {
             transition={{ duration: 1, ease: "easeOut" }}
             className="relative hidden lg:block"
           >
-            <div className="relative z-20 rounded-3xl overflow-hidden shadow-2xl">
+            <div className="future-glow relative z-20 rounded-3xl overflow-hidden shadow-2xl border border-white/10">
               <img 
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800" 
                 alt="Qorvance Team" 
@@ -78,7 +78,7 @@ const Hero = () => {
             <motion.div 
               animate={{ y: [0, -20, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute -top-10 -right-10 z-30 bg-white p-6 rounded-2xl shadow-xl border border-gray-100"
+              className="future-card absolute -top-10 -right-10 z-30 bg-white dark:bg-zinc-900 p-6 rounded-2xl shadow-xl border border-gray-100"
             >
               <div className="flex items-center space-x-4">
                 <div className="bg-green-100 p-3 rounded-xl text-green-600">

@@ -62,7 +62,7 @@ const services = [
 
 const ServiceCards = () => {
   return (
-    <section className="py-24 bg-white">
+    <section className="future-surface py-24 bg-white dark:bg-black">
       <div className="container-custom">
         <SectionHeading 
           subtitle="Our Expertise"
@@ -79,7 +79,7 @@ const ServiceCards = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1, duration: 0.5 }}
-              className="group p-8 rounded-2xl border border-gray-100 bg-white hover:border-primary/20 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300"
+              className="future-card group p-8 rounded-2xl border border-gray-100 bg-white hover:border-primary/20 hover:shadow-xl hover:shadow-primary/5"
             >
               <div className={cn(
                 "w-14 h-14 rounded-xl flex items-center justify-center mb-6 text-white transition-transform group-hover:scale-110 duration-300",

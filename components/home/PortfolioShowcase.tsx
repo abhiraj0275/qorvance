@@ -56,7 +56,7 @@ const PortfolioShowcase = () => {
     : projects.filter(p => p.category === activeCategory);
 
   return (
-    <section className="py-24 bg-slate-50">
+    <section className="future-surface py-24 bg-slate-50 dark:bg-zinc-950">
       <div className="container-custom">
         <div className="flex flex-col lg:flex-row justify-between items-end mb-12">
           <SectionHeading 
@@ -75,7 +75,7 @@ const PortfolioShowcase = () => {
                   "px-6 py-2 rounded-full font-semibold transition-all duration-300",
                   activeCategory === cat 
                     ? "bg-primary text-white shadow-lg shadow-primary/20" 
-                    : "bg-white text-gray-600 hover:bg-gray-100"
+                    : "bg-white dark:bg-zinc-900 text-gray-600 hover:bg-gray-100"
                 )}
               >
                 {cat}

@@ -36,7 +36,7 @@ const Testimonials = () => {
   const prev = () => setCurrent((prev) => (prev - 1 + testimonials.length) % testimonials.length);
 
   return (
-    <section className="py-24 bg-white overflow-hidden">
+    <section className="future-surface py-24 bg-white dark:bg-black overflow-hidden">
       <div className="container-custom">
         <SectionHeading 
           subtitle="Testimonials"
@@ -53,7 +53,7 @@ const Testimonials = () => {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -50 }}
               transition={{ duration: 0.5 }}
-              className="bg-slate-50 rounded-3xl p-12 md:p-16 relative"
+              className="future-card bg-slate-50 rounded-3xl p-12 md:p-16 relative border border-transparent"
             >
               <Quote className="absolute top-8 left-8 text-primary/10" size={80} />
               
@@ -82,14 +82,14 @@ const Testimonials = () => {
 
           <button 
             onClick={prev}
-            className="absolute top-1/2 -left-4 -translate-y-1/2 w-14 h-14 bg-white rounded-full shadow-xl flex items-center justify-center text-dark hover:bg-primary hover:text-white transition-all z-20"
+            className="absolute top-1/2 -left-4 -translate-y-1/2 w-14 h-14 bg-white dark:bg-zinc-900 rounded-full shadow-xl flex items-center justify-center text-dark hover:bg-primary hover:text-white transition-all z-20"
           >
             <ChevronLeft size={28} />
           </button>
           
           <button 
             onClick={next}
-            className="absolute top-1/2 -right-4 -translate-y-1/2 w-14 h-14 bg-white rounded-full shadow-xl flex items-center justify-center text-dark hover:bg-primary hover:text-white transition-all z-20"
+            className="absolute top-1/2 -right-4 -translate-y-1/2 w-14 h-14 bg-white dark:bg-zinc-900 rounded-full shadow-xl flex items-center justify-center text-dark hover:bg-primary hover:text-white transition-all z-20"
           >
             <ChevronRight size={28} />
           </button>

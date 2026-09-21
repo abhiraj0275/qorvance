@@ -8,7 +8,7 @@ import { ArrowRight } from 'lucide-react';
 const CTA = () => {
   return (
     <section className="py-24 relative overflow-hidden">
-      <div className="absolute inset-0 bg-primary">
+      <div className="absolute inset-0 bg-primary dark:bg-rose-700">
         <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white via-transparent to-transparent" />
       </div>
       
