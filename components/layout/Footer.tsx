@@ -11,9 +11,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Company Info */}
           <div>
-            <Link href="/" className="flex items-center mb-6">
-              <img src="/images/qorvance-logo.jpg" alt="Qorvance logo" className="w-11 h-11 rounded-lg object-cover object-center mr-2 shadow-md" />
-              <span className="text-2xl font-bold tracking-tight">
+            <Link href="/" className="flex items-center gap-3 mb-6" aria-label="Qorvance home">
+              <img src="/images/qorvance-logo.jpg" alt="" className="w-11 h-11 rounded-lg object-cover object-center shadow-md" />
+              <span className="border-l border-primary/60 pl-3 text-2xl font-extrabold tracking-[0.06em] leading-none whitespace-nowrap">
                 Qorvance
               </span>
             </Link>

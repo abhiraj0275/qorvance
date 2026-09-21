@@ -71,10 +71,10 @@ const Header = () => {
 
       <nav className="container-custom flex justify-between items-center">
         {/* Logo */}
-        <Link href="/" className="flex items-center group">
-          <img src="/images/qorvance-logo.jpg" alt="Qorvance logo" className="w-11 h-11 rounded-lg object-cover object-center mr-2 shadow-md group-hover:rotate-3 transition-transform" />
+        <Link href="/" className="flex items-center gap-3 group" aria-label="Qorvance home">
+          <img src="/images/qorvance-logo.jpg" alt="" className="w-11 h-11 rounded-lg object-cover object-center shadow-md group-hover:rotate-3 transition-transform" />
           <span className={cn(
-            "text-xl md:text-2xl font-bold tracking-tight transition-colors",
+            "border-l border-primary/60 pl-3 text-2xl md:text-3xl font-extrabold tracking-[0.06em] leading-none whitespace-nowrap transition-colors",
             scrolled ? "text-dark dark:text-white" : "text-dark dark:text-white"
           )}>
             Qorvance
