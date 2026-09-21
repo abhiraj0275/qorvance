@@ -38,8 +38,8 @@ export default function RootLayout({
       <body className={`${inter.variable} font-sans antialiased bg-white dark:bg-dark text-dark dark:text-white transition-colors duration-300`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
-          enableSystem
+          defaultTheme="dark"
+          enableSystem={false}
           disableTransitionOnChange
         >
           <Header />
